@@ -96,12 +96,12 @@ async function main() {
     mint: mint.toString(),
     tokenAccount: tokenAccount.toString(),
     mintAuthority: {
-      publicKey: mintAuthority.publicKey.toString(),
-      secretKey: Array.from(mintAuthority.secretKey)
+      publicKey: mintAuthority.publicKey.toString()
+      // SECURITY: Secret keys removed - use proper key management
     },
     freezeAuthority: {
-      publicKey: freezeAuthority.publicKey.toString(),
-      secretKey: Array.from(freezeAuthority.secretKey)
+      publicKey: freezeAuthority.publicKey.toString()
+      // SECURITY: Secret keys removed - use proper key management
     },
     decimals: TOKEN_DECIMALS,
     symbol: TOKEN_SYMBOL,

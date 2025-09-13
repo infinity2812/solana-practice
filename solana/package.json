@@ -1,0 +1,22 @@
+{
+  "name": "infinity-token",
+  "version": "1.0.0",
+  "description": "Solana Infinity Token using web3.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "create-token": "node src/createToken.js",
+    "mint-tokens": "node src/mintTokens.js",
+    "transfer-tokens": "node src/transferTokens.js",
+    "get-balance": "node src/getBalance.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["solana", "token", "web3", "spl-token"],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "create": "node src/create.js",
+    "mint": "node src/mint.js",
+    "transfer": "node src/transfer.js",
+    "balance": "node src/balance.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "dotenv": "^16.3.1"
+  }
+}

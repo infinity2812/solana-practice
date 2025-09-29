@@ -163,4 +163,4 @@ public/
 bower_components/
 jspm_packages/
 web_modules/
-.lock-wscript
+.lock-wscript.git-embedded/

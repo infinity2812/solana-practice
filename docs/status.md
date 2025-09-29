@@ -110,6 +110,9 @@
 3. **Add Input Validation** - Implement validation throughout codebase
 4. **Refactor Large Files** - Split files over 300 lines
 
+### 2025-09-29
+- ✅ Added concise component reviews under `privacy-cash-code-review/reviews/` covering program, circuits, scripts, indexer, audits, security, and ops for rapid onboarding and auditing.
+
 ## 📋 Team Assignments
 
 ### Current Assignments

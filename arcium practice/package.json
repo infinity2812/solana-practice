@@ -1,0 +1,18 @@
+{
+  "name": "arcium-practice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "basic:web3": "node src/basicWeb3.js",
+    "token:create": "node src/createToken.js",
+    "token:mint-transfer": "node src/mintAndTransfer.js"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.11",
+    "@solana/web3.js": "^1.87.6",
+    "dotenv": "^16.3.1"
+  }
+}
+
+

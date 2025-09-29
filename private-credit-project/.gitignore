@@ -1,0 +1,179 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# OS / Misc
+Thumbs.db
+
+# Logs
+logs
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node / TypeScript
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.eslintcache
+.cache/
+.parcel-cache/
+
+# Next.js
+.next/
+out/
+.vercel/
+.turbo/
+
+# Testing / Coverage
+coverage/
+.nyc_output/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Cursor
+.cursor/
+
+# Rust / Cargo / Anchor
+target/
+anchor/target/
+.anchor/
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Solana
+.anchor/
+target/
+**/*.rs.bk
+.DS_Store
+test-ledger/
+.anchor
+
+# IDL files
+*.json
+
+# Keypairs
+*.json
+!package.json
+!tsconfig.json
+!next.config.js
+!tailwind.config.js
+
+# Database
+*.db
+*.sqlite
+
+# Redis
+dump.rdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
